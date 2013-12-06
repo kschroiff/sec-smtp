@@ -1,0 +1,21 @@
+{
+"protocol":"SMTP",
+"data":{
+		"username":"blabla@blabla.com",
+		"password":"password",
+		"from":"blabla@bla.com",
+		"to":"blabla@bla.com",
+		"subject":"HELLO",
+		"body":"WORLD",
+		"attachedFiles":[
+			{
+			"Name"="BLA.ext",
+			"data"="SOME BASE 64 DATA" 
+			},
+			{
+			"Name"="BLA2.ext",
+			"data"="SOME OTHER BASE 64 DATA" 
+			}
+		]
+	} 
+}
